@@ -47,6 +47,17 @@ export default function Header() {
                     User Data
                 </Link>
             </Typography>
+
+            <Typography
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="p-1 font-normal"
+            >
+                <Link href="/comments" className="flex items-center">
+                    Comments
+                </Link>
+            </Typography>
         </ul>
     );
 
