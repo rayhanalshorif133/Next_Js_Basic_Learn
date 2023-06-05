@@ -7,6 +7,8 @@ export default function home() {
   return (
     <>
       <Header />
+      <h1>This is home page</h1>
+
     </>
   )
 }
