@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function User({ user }) {
     const { firstName, lastName, image } = user;
-    console.log(user);
     return (
         <div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100">
             <img src={image} alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
