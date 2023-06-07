@@ -23,8 +23,8 @@ export default function Header() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <Link href="/blog" className="flex items-center">
-                    Blogs
+                <Link href="/" className="flex items-center">
+                    Home
                 </Link>
             </Typography>
             <Typography

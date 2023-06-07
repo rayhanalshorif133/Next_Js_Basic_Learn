@@ -1,6 +1,6 @@
 import { Button } from "@material-tailwind/react";
 import { useState } from "react";
-import Header from "../layouts/Header";
+import Header from "../../components/layouts/Header";
 import NewComment from "@/components/NewComment";
 
 export default function CommentPage() {
