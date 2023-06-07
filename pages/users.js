@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import User from './../components/User';
 import Loading from "@/components/Loading";
 import Breadcrumb from "@/components/layouts/Breadcrumb";
+import Footer from "@/components/layouts/Footer";
 
 export default function UserList({ users }) {
 
@@ -24,6 +25,7 @@ export default function UserList({ users }) {
                     </Suspense>
                 </div>
             </div>
+            <Footer isFixed={false} />
         </>
 
     )

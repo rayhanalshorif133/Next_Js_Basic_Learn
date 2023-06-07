@@ -2,6 +2,7 @@ import React, { Suspense } from 'react'
 import HomeContent from '@/components/HomeContent';
 import Loading from '@/components/Loading';
 import Breadcrumb from '@/components/layouts/Breadcrumb';
+import Footer from '@/components/layouts/Footer';
 export default function home() {
 
   const breadCrumb = [
@@ -14,6 +15,7 @@ export default function home() {
       <Suspense fallback={<Loading />}>
         <HomeContent />
       </Suspense>
+      <Footer isFixed={true} />
     </>
   )
 }
