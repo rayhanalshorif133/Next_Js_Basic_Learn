@@ -5,7 +5,6 @@ export default function Breadcrumb(props) {
 
     const { breadCrumb } = props;
 
-    console.log(breadCrumb);
 
     return (
         <div className='container my-5 justify-end grid mx-auto'>
