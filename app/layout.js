@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import './globals.css'
 import { Poppins } from 'next/font/google'
 
@@ -26,6 +27,8 @@ export default function RootLayout({ children }) {
         <div className='max-w-4xl mx-auto mt-3'>
           {children}
         </div>
+        <Footer />
+
       </body>
     </html>
   )
