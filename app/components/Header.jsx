@@ -31,7 +31,7 @@ export default function Header() {
 
     return (
         <div className='shadow-md w-full sticky top-0 z-10 bg-white'>
-            <nav className='flex justify-between items-center py-3 px-96 '>
+            <nav className='flex justify-between items-center 3xl:py-3 2xl:py-2 3xl:px-96 2xl:px-64'>
             <p className='text-2xl font-bold text-grey-800'>
                 Basic Next.js App
             </p>
